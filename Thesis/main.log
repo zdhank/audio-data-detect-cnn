@@ -1,0 +1,946 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.10)  5 SEP 2019 12:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./thesis.cls
+Document Class: thesis 1997/10/10 v1.3x Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {\small \bfseries #1: #2}\ifdim \wd \@tempboxa >\hsize \smal
+l \bfseries #1: #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box
+ \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count101
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count102
+\c@subtable=\count103
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks27
+\float@box=\box28
+\@float@everytoks=\toks28
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks29
+\c@algorithm=\count105
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count106
+\c@ALC@line=\count107
+\c@ALC@rem=\count108
+\c@ALC@depth=\count109
+\ALC@tlm=\skip49
+\algorithmicindent=\skip50
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count110
+\multirow@dima=\skip52
+\bigstrutjot=\dimen121
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen122
+\enit@toks=\toks30
+\enit@inbox=\box30
+\enitdp@description=\count111
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+)
+\figX=\skip63
+\figY=\skip64
+\tmplen=\skip65
+\matFigX=\skip66
+\matFigY=\skip67
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen123
+\scratchbox=\box31
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen124
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(./sections/TitlePage.tex
+<logo.pdf, id=1, 362.35374pt x 95.35625pt>
+File: logo.pdf Graphic file (type pdf)
+<use logo.pdf>
+Package pdftex.def Info: logo.pdf  used on input line 8.
+(pdftex.def)             Requested size: 144.93892pt x 38.14182pt.
+) [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.
+pdf>] (./sections/Abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 2126) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/10.95 All data and source codes are avail-able at $\OT1/cmtt/m/n
+/10.95 https : / / github . com / zdhank /
+ []
+
+) (./sections/ChapAckn.tex [2
+
+
+]) [3
+
+] (./main.toc [4
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [5] (./main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [6
+
+]
+(./main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ (./sections/ChapAbbr.tex [7
+
+]) [8
+
+] (./sections/ChapOne.tex
+Chapter 1.
+\tmpht=\dimen125
+
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+ [9
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11]
+<Figs/intro/pipline.pdf, id=53, 434.58359pt x 210.7875pt>
+File: Figs/intro/pipline.pdf Graphic file (type pdf)
+<use Figs/intro/pipline.pdf>
+Package pdftex.def Info: Figs/intro/pipline.pdf  used on input line 22.
+(pdftex.def)             Requested size: 434.58252pt x 210.78699pt.
+
+Overfull \hbox (7.79118pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
+[12 <./Figs/intro/pipline.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/intro/pipline.pdf): PDF inclusion: invali
+d other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<Figs/intro/locations.pdf, id=76, 412.48878pt x 234.79083pt>
+File: Figs/intro/locations.pdf Graphic file (type pdf)
+<use Figs/intro/locations.pdf>
+Package pdftex.def Info: Figs/intro/locations.pdf  used on input line 34.
+(pdftex.def)             Requested size: 329.99147pt x 187.83292pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./Figs/intro/locations.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+)
+(./sections/ChapTwo.tex [14]
+Chapter 2.
+\tmpht=\dimen126
+
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+ [15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 4467) has occurred while \output is active []
+
+ [17]
+[18]
+<Figs/chap2/batnoise.png, id=115, 324.4923pt x 390.4989pt>
+File: Figs/chap2/batnoise.png Graphic file (type png)
+<use Figs/chap2/batnoise.png>
+Package pdftex.def Info: Figs/chap2/batnoise.png  used on input line 51.
+(pdftex.def)             Requested size: 259.59418pt x 312.39954pt.
+ [19 <./Figs/chap2/batnoise.png>]) (./sections/ChapThree.tex [20]
+Chapter 3.
+\tmpht=\dimen127
+
+Underfull \vbox (badness 2452) has occurred while \output is active []
+
+ [21
+
+]
+<Figs/chap3/power.pdf, id=131, 433.62pt x 289.08pt>
+File: Figs/chap3/power.pdf Graphic file (type pdf)
+<use Figs/chap3/power.pdf>
+Package pdftex.def Info: Figs/chap3/power.pdf  used on input line 17.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+<Figs/chap3/logpower.pdf, id=132, 433.62pt x 289.08pt>
+File: Figs/chap3/logpower.pdf Graphic file (type pdf)
+<use Figs/chap3/logpower.pdf>
+Package pdftex.def Info: Figs/chap3/logpower.pdf  used on input line 23.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 23--24
+ [][] 
+ []
+
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 15--26
+[][]   [] 
+ []
+
+[22 <./Figs/chap3/power.pdf> <./Figs/chap3/logpower.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap3/logpower.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+<Figs/chap3/mel_scale.pdf, id=215, 578.16pt x 433.62pt>
+File: Figs/chap3/mel_scale.pdf Graphic file (type pdf)
+<use Figs/chap3/mel_scale.pdf>
+Package pdftex.def Info: Figs/chap3/mel_scale.pdf  used on input line 44.
+(pdftex.def)             Requested size: 202.35902pt x 151.76927pt.
+<Figs/chap3/mel_bank.pdf, id=216, 578.16pt x 433.62pt>
+File: Figs/chap3/mel_bank.pdf Graphic file (type pdf)
+<use Figs/chap3/mel_bank.pdf>
+Package pdftex.def Info: Figs/chap3/mel_bank.pdf  used on input line 50.
+(pdftex.def)             Requested size: 202.35902pt x 151.76927pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 42--53
+[][]   [] 
+ []
+
+<Figs/chap3/mel_spec.pdf, id=217, 433.62pt x 289.08pt>
+File: Figs/chap3/mel_spec.pdf Graphic file (type pdf)
+<use Figs/chap3/mel_spec.pdf>
+Package pdftex.def Info: Figs/chap3/mel_spec.pdf  used on input line 59.
+(pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+[23 <./Figs/chap3/mel_scale.pdf> <./Figs/chap3/mel_bank.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap3/mel_bank.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./Figs/chap3/mel_spec.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<Figs/chap3/sub_spec.pdf, id=334, 433.62pt x 289.08pt>
+File: Figs/chap3/sub_spec.pdf Graphic file (type pdf)
+<use Figs/chap3/sub_spec.pdf>
+Package pdftex.def Info: Figs/chap3/sub_spec.pdf  used on input line 166.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+<Figs/chap3/logmmse.pdf, id=335, 433.62pt x 289.08pt>
+File: Figs/chap3/logmmse.pdf Graphic file (type pdf)
+<use Figs/chap3/logmmse.pdf>
+Package pdftex.def Info: Figs/chap3/logmmse.pdf  used on input line 173.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 173--174
+ [][] 
+ []
+
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 164--177
+[][]   [] 
+ []
+
+[28 <./Figs/chap3/sub_spec.pdf> <./Figs/chap3/logmmse.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap3/logmmse.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] [29] [30] [31]
+<Figs/chap3/act1.pdf, id=431, 433.62pt x 289.08pt>
+File: Figs/chap3/act1.pdf Graphic file (type pdf)
+<use Figs/chap3/act1.pdf>
+Package pdftex.def Info: Figs/chap3/act1.pdf  used on input line 227.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 227--228
+ [][] 
+ []
+
+<Figs/chap3/act2.pdf, id=432, 433.62pt x 289.08pt>
+File: Figs/chap3/act2.pdf Graphic file (type pdf)
+<use Figs/chap3/act2.pdf>
+Package pdftex.def Info: Figs/chap3/act2.pdf  used on input line 234.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 225--238
+[][]   [] 
+ []
+
+<Figs/chap3/vggfilter.png, id=433, 416.757pt x 338.7054pt>
+File: Figs/chap3/vggfilter.png Graphic file (type png)
+<use Figs/chap3/vggfilter.png>
+Package pdftex.def Info: Figs/chap3/vggfilter.png  used on input line 248.
+(pdftex.def)             Requested size: 208.37799pt x 169.35228pt.
+[32 <./Figs/chap3/act1.pdf> <./Figs/chap3/act2.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap3/act2.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>] [33 <./Figs/chap3/vggfilter.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+<Figs/chap3/e100.pdf, id=486, 560.04576pt x 394.73843pt>
+File: Figs/chap3/e100.pdf Graphic file (type pdf)
+<use Figs/chap3/e100.pdf>
+Package pdftex.def Info: Figs/chap3/e100.pdf  used on input line 280.
+(pdftex.def)             Requested size: 252.01826pt x 177.63065pt.
+
+[35]
+<Figs/chap3/10-4.png, id=490, 433.62pt x 289.08pt>
+File: Figs/chap3/10-4.png Graphic file (type png)
+<use Figs/chap3/10-4.png>
+Package pdftex.def Info: Figs/chap3/10-4.png  used on input line 289.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 289--290
+ [][] 
+ []
+
+<Figs/chap3/10-5.png, id=491, 433.62pt x 289.08pt>
+File: Figs/chap3/10-5.png Graphic file (type png)
+<use Figs/chap3/10-5.png>
+Package pdftex.def Info: Figs/chap3/10-5.png  used on input line 296.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 296--297
+ [][] 
+ []
+
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 287--300
+[][]   [] 
+ []
+
+<Figs/chap3/pn.png, id=492, 399.4925pt x 266.9975pt>
+File: Figs/chap3/pn.png Graphic file (type png)
+<use Figs/chap3/pn.png>
+Package pdftex.def Info: Figs/chap3/pn.png  used on input line 311.
+(pdftex.def)             Requested size: 219.72154pt x 146.84906pt.
+
+Overfull \hbox (6.32588pt too wide) in paragraph at lines 311--312
+ [][] 
+ []
+
+<Figs/chap3/hnm.png, id=493, 389.455pt x 266.9975pt>
+File: Figs/chap3/hnm.png Graphic file (type png)
+<use Figs/chap3/hnm.png>
+Package pdftex.def Info: Figs/chap3/hnm.png  used on input line 318.
+(pdftex.def)             Requested size: 214.2009pt x 146.84906pt.
+
+Overfull \hbox (0.80524pt too wide) in paragraph at lines 318--319
+ [][] 
+ []
+
+[36 <./Figs/chap3/e100.pdf>] [37 <./Figs/chap3/10-4.png> <./Figs/chap3/10-5.png
+> <./Figs/chap3/pn.png> <./Figs/chap3/hnm.png>]) (./sections/ChapFour.tex
+[38]
+Chapter 4.
+\tmpht=\dimen128
+[39
+
+] [40]
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [41]
+<Figs/chap4/baseline.pdf, id=535, 565.95038pt x 377.00548pt>
+File: Figs/chap4/baseline.pdf Graphic file (type pdf)
+<use Figs/chap4/baseline.pdf>
+Package pdftex.def Info: Figs/chap4/baseline.pdf  used on input line 48.
+(pdftex.def)             Requested size: 311.27367pt x 207.35364pt.
+
+[42 <./Figs/chap4/baseline.pdf>] [43]
+<Figs/chap4/baseacc.pdf, id=560, 602.25pt x 372.39125pt>
+File: Figs/chap4/baseacc.pdf Graphic file (type pdf)
+<use Figs/chap4/baseacc.pdf>
+Package pdftex.def Info: Figs/chap4/baseacc.pdf  used on input line 97.
+(pdftex.def)             Requested size: 210.79065pt x 130.33888pt.
+<Figs/chap4/basef.pdf, id=561, 602.25pt x 372.39125pt>
+File: Figs/chap4/basef.pdf Graphic file (type pdf)
+<use Figs/chap4/basef.pdf>
+Package pdftex.def Info: Figs/chap4/basef.pdf  used on input line 103.
+(pdftex.def)             Requested size: 210.79065pt x 130.33888pt.
+<Figs/chap4/baserec.pdf, id=562, 602.25pt x 372.39125pt>
+File: Figs/chap4/baserec.pdf Graphic file (type pdf)
+<use Figs/chap4/baserec.pdf>
+Package pdftex.def Info: Figs/chap4/baserec.pdf  used on input line 109.
+(pdftex.def)             Requested size: 210.79065pt x 130.33888pt.
+<Figs/chap4/basepre.pdf, id=563, 602.25pt x 372.39125pt>
+File: Figs/chap4/basepre.pdf Graphic file (type pdf)
+<use Figs/chap4/basepre.pdf>
+Package pdftex.def Info: Figs/chap4/basepre.pdf  used on input line 114.
+(pdftex.def)             Requested size: 210.79065pt x 130.33888pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 95--117
+[][]   [] 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 95--117
+[] [] 
+ []
+
+[44] [45 <./Figs/chap4/baseacc.pdf> <./Figs/chap4/basef.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/basef.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./Figs/chap4/baserec.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/baserec.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./Figs/chap4/basepre.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/basepre.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] [46]
+<Figs/chap4/vgg16.pdf, id=638, 694.07108pt x 377.00548pt>
+File: Figs/chap4/vgg16.pdf Graphic file (type pdf)
+<use Figs/chap4/vgg16.pdf>
+Package pdftex.def Info: Figs/chap4/vgg16.pdf  used on input line 134.
+(pdftex.def)             Requested size: 381.74026pt x 207.35364pt.
+ [47 <./Figs/chap4/vgg16.pdf>] [48] [49]
+<Figs/chap4/vggacc.pdf, id=659, 589.20125pt x 372.39125pt>
+File: Figs/chap4/vggacc.pdf Graphic file (type pdf)
+<use Figs/chap4/vggacc.pdf>
+Package pdftex.def Info: Figs/chap4/vggacc.pdf  used on input line 201.
+(pdftex.def)             Requested size: 206.22351pt x 130.33888pt.
+<Figs/chap4/vggf.pdf, id=660, 589.20125pt x 372.39125pt>
+File: Figs/chap4/vggf.pdf Graphic file (type pdf)
+<use Figs/chap4/vggf.pdf>
+Package pdftex.def Info: Figs/chap4/vggf.pdf  used on input line 207.
+(pdftex.def)             Requested size: 206.22351pt x 130.33888pt.
+<Figs/chap4/vggrec.pdf, id=661, 589.20125pt x 372.39125pt>
+File: Figs/chap4/vggrec.pdf Graphic file (type pdf)
+<use Figs/chap4/vggrec.pdf>
+Package pdftex.def Info: Figs/chap4/vggrec.pdf  used on input line 213.
+(pdftex.def)             Requested size: 206.22351pt x 130.33888pt.
+<Figs/chap4/vggpre.pdf, id=662, 589.20125pt x 372.39125pt>
+File: Figs/chap4/vggpre.pdf Graphic file (type pdf)
+<use Figs/chap4/vggpre.pdf>
+Package pdftex.def Info: Figs/chap4/vggpre.pdf  used on input line 218.
+(pdftex.def)             Requested size: 206.22351pt x 130.33888pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 199--221
+[][]   [] 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 199--221
+[] [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50 <./Figs/chap4/vggacc.pdf> <./Figs/chap4/vggf.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/vggf.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Figs/chap4/vggrec.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/vggrec.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Figs/chap4/vggpre.pdf
+
+pdfTeX warning: pdflatex (file ./Figs/chap4/vggpre.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [51]
+<Figs/chap4/denoised_e50_b16_acc.pdf, id=735, 433.62pt x 257.85526pt>
+File: Figs/chap4/denoised_e50_b16_acc.pdf Graphic file (type pdf)
+<use Figs/chap4/denoised_e50_b16_acc.pdf>
+Package pdftex.def Info: Figs/chap4/denoised_e50_b16_acc.pdf  used on input lin
+e 253.
+(pdftex.def)             Requested size: 216.80946pt x 128.9273pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 253--254
+ [][] 
+ []
+
+<Figs/chap4/vgg_augment_denoise_e50_b16_acc.pdf, id=736, 430.56966pt x 257.1148
+7pt>
+File: Figs/chap4/vgg_augment_denoise_e50_b16_acc.pdf Graphic file (type pdf)
+<use Figs/chap4/vgg_augment_denoise_e50_b16_acc.pdf>
+Package pdftex.def Info: Figs/chap4/vgg_augment_denoise_e50_b16_acc.pdf  used o
+n input line 259.
+(pdftex.def)             Requested size: 215.2843pt x 128.55711pt.
+
+Overfull \hbox (1.88864pt too wide) in paragraph at lines 259--260
+ [][] 
+ []
+
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 251--263
+[][]   [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--263
+
+ []
+
+<Figs/chap4/denoised_e50_b16_loss.pdf, id=737, 433.62pt x 257.24216pt>
+File: Figs/chap4/denoised_e50_b16_loss.pdf Graphic file (type pdf)
+<use Figs/chap4/denoised_e50_b16_loss.pdf>
+Package pdftex.def Info: Figs/chap4/denoised_e50_b16_loss.pdf  used on input li
+ne 266.
+(pdftex.def)             Requested size: 216.80946pt x 128.62076pt.
+
+Overfull \hbox (3.4138pt too wide) in paragraph at lines 266--267
+ [][] 
+ []
+
+<Figs/chap4/vgg_augment_denoise_e50_b16_loss.pdf, id=738, 433.30844pt x 256.715
+99pt>
+File: Figs/chap4/vgg_augment_denoise_e50_b16_loss.pdf Graphic file (type pdf)
+<use Figs/chap4/vgg_augment_denoise_e50_b16_loss.pdf>
+Package pdftex.def Info: Figs/chap4/vgg_augment_denoise_e50_b16_loss.pdf  used 
+on input line 271.
+(pdftex.def)             Requested size: 216.65369pt x 128.35767pt.
+
+Overfull \hbox (3.25803pt too wide) in paragraph at lines 271--272
+ [][] 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 264--274
+[][] [] 
+ []
+
+
+Underfull \vbox (badness 4467) has occurred while \output is active []
+
+ [52]
+<Figs/chap4/pos.png, id=742, 666.49pt x 578.16pt>
+File: Figs/chap4/pos.png Graphic file (type png)
+<use Figs/chap4/pos.png>
+Package pdftex.def Info: Figs/chap4/pos.png  used on input line 284.
+(pdftex.def)             Requested size: 219.94238pt x 190.79338pt.
+
+Overfull \hbox (6.54672pt too wide) in paragraph at lines 284--285
+ [][] 
+ []
+
+<Figs/chap4/neg.png, id=743, 661.0296pt x 553.1064pt>
+File: Figs/chap4/neg.png Graphic file (type png)
+<use Figs/chap4/neg.png>
+Package pdftex.def Info: Figs/chap4/neg.png  used on input line 290.
+(pdftex.def)             Requested size: 218.14044pt x 182.52567pt.
+
+Overfull \hbox (4.74478pt too wide) in paragraph at lines 290--291
+ [][] 
+ []
+
+[53 <./Figs/chap4/denoised_e50_b16_acc.pdf> <./Figs/chap4/vgg_augment_denoise_e
+50_b16_acc.pdf> <./Figs/chap4/denoised_e50_b16_loss.pdf> <./Figs/chap4/vgg_augm
+ent_denoise_e50_b16_loss.pdf>]) (./sections/ChapFive.tex [54 <./Figs/chap4/pos.
+png> <./Figs/chap4/neg.png>]
+Chapter 5.
+\tmpht=\dimen129
+) (./sections/ChapSix.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55
+
+]
+[56]
+Chapter 6.
+\tmpht=\dimen130
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57
+
+])
+(./main.bbl [58] [59
+
+] [60] [61] [62] [63] [64]) (./sections/AppA.tex [65]
+Appendix A.
+<Figs/Appen/simple_model_plot.png, id=831, 601.24625pt x 863.225pt>
+File: Figs/Appen/simple_model_plot.png Graphic file (type png)
+<use Figs/Appen/simple_model_plot.png>
+Package pdftex.def Info: Figs/Appen/simple_model_plot.png  used on input line 8
+.
+(pdftex.def)             Requested size: 210.43933pt x 302.13327pt.
+<Figs/Appen/simple_model_plot2.png, id=832, 601.24625pt x 757.83125pt>
+File: Figs/Appen/simple_model_plot2.png Graphic file (type png)
+<use Figs/Appen/simple_model_plot2.png>
+Package pdftex.def Info: Figs/Appen/simple_model_plot2.png  used on input line 
+13.
+(pdftex.def)             Requested size: 210.43933pt x 265.2449pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 6--15
+[][]   [] 
+ []
+
+[66
+
+ <./Figs/Appen/simple_model_plot.png> <./Figs/Appen/simple_model_plot2.png>]
+Appendix B.
+<Figs/Appen/model_plot1.png, id=838, 503.63156pt x 1209.01688pt>
+File: Figs/Appen/model_plot1.png Graphic file (type png)
+<use Figs/Appen/model_plot1.png>
+Package pdftex.def Info: Figs/Appen/model_plot1.png  used on input line 21.
+(pdftex.def)             Requested size: 176.27368pt x 423.16225pt.
+<Figs/Appen/model_plot2.png, id=839, 503.63156pt x 1209.01688pt>
+File: Figs/Appen/model_plot2.png Graphic file (type png)
+<use Figs/Appen/model_plot2.png>
+Package pdftex.def Info: Figs/Appen/model_plot2.png  used on input line 26.
+(pdftex.def)             Requested size: 176.27368pt x 423.16225pt.
+<Figs/Appen/model_plot3.png, id=840, 503.63156pt x 1209.01688pt>
+File: Figs/Appen/model_plot3.png Graphic file (type png)
+<use Figs/Appen/model_plot3.png>
+Package pdftex.def Info: Figs/Appen/model_plot3.png  used on input line 29.
+(pdftex.def)             Requested size: 176.27368pt x 423.16225pt.
+) [67
+
+ <./Figs/Appen/model_plot1.png>] [68 <./Figs/Appen/model_plot2.png> <./Figs/App
+en/model_plot3.png>] (./main.aux) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 111 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4894 strings out of 492649
+ 74312 string characters out of 6129622
+ 139453 words of memory out of 5000000
+ 8594 multiletter control sequences out of 15000+600000
+ 18422 words of font info for 68 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 41i,12n,43p,1500b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+b10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (68 pages, 5526797 bytes).
+PDF statistics:
+ 920 PDF objects out of 1000 (max. 8388607)
+ 487 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+

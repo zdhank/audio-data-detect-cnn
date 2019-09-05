@@ -1,0 +1,21 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of models and feature extraction methods on species detection\relax }}{18}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Number of Positive files in different types\relax }}{40}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Scores of balanced and unbalanced dataset with/without normalization\relax }}{43}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Metrics scores of baseline model with data processing methods\relax }}{44}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparing depth of models\relax }}{48}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Metrics score of Complex VGG-like model with three dataset strategies\relax }}{49}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Wrong predicted positions of two models\relax }}{51}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

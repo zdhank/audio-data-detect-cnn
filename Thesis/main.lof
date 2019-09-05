@@ -1,0 +1,34 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces General steps of deep learning on audio data\relax }}{12}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Locations of Osa Peninsula in Costa Rica (provided by Jenna)\relax }}{13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Noise reduction of bat call}}{19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Compare of power spectrogram and log-magnitude spectrogram (example file: 5AEF815A.wav)\relax }}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Transformation of frequency-to-mel and mel filter banks\relax }}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mel spectrogram\relax }}{24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mel spectrogram by using noise reduction methods\relax }}{28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Different activation functions output curve\relax }}{32}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces visualisation of convolutional filters in VGGNet\relax }}{33}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Training and validation loss curves of 100 training epochs\relax }}{36}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Training and validation loss curves of varying learning rate\relax }}{37}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hard negative mining examples in two-dimension\relax }}{37}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture of the baseline CNN\relax }}{42}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Histograms of baseline model: comparing 7 different strategies in accuracy, F1, recall and precision\relax }}{45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Architecture of VGG-based CNN\relax }}{47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Histograms of VGG-based model: comparing 7 different strategies in accuracy, F1, recall and precision\relax }}{50}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Accuracy and loss curves for optimal baseline (LSA: Initial) and VGG-based models (Aug: hnm) with epoch=50, batch\_size=16, lr=$10^{-5}$\relax }}{53}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Types of positives and negatives with easy and hard examples\relax }}{54}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Structure of baseline model\relax }}{66}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Structure of VGG-based model\relax }}{68}

@@ -1,0 +1,13 @@
+% !TEX root=../main.tex
+
+\renewcommand{\baselinestretch}{1.5}
+\chapter{Abstract}
+\renewcommand{\baselinestretch}{\mystretch}
+%\setlength{\parindent}{2em}
+Passive acoustic monitoring has become a popular way to estimate activity and population of species. However, a large amount of recording data are significantly time-consuming effort for experts. As a case study of Geoffroy's spider monkey, \textit {Ateles geoffroyi}, we aim to develop an automated species detector based on CNN to predict the call position in audio files. The audio signal is represented by mel-spectrogram. In order to improve the model performance, we propose several data processing approaches as the strategy of compiling training dataset. Noise reduction methods, including spectral subtraction and MMSE-LSA estimators, are applied on positive data, which enhance the region of interest. Due to relative small dataset,  we use augmentation method to increase the variety and diversity of data, reducing the generalisation error. Moreover, we test the performance by new data clips as well, measuring the number of wrong predictions as a comparison. The prediction results are recorded in files for future review. All models with these strategies achieve improvement in varying degrees.\par
+Since the baseline model is a shallow network with limited performance, a deep model based on VGGNet is proposed named VGG-based model. By learning high-level features, most of the hard positive data can be accurately classified. As a result, the VGG-based model with augmentation dataset achieves optimal performance, presenting in 85.05\% accuracy and 83.32\% F1 score. Additionally, both baseline and VGG-based models are trained in a second time with applying hard negative mining, increased accuracy and precision by 5\% in general.\par
+All data and source codes are available at \url{https://github.com/zdhank/audio-data-detect-cnn.git}
+
+
+
+

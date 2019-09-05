@@ -1,0 +1,16 @@
+% !TEX root=../main.tex
+\chapter{Future Works}
+\renewcommand{\baselinestretch}{\mystretch}
+\label{chap:Future}
+%\setlength{\parindent}{0pt}''
+\PARstart{D}{ue} to the limitation of time, some improvements can be further applied to this project. The essential way of reducing the model mineralisation error is to use more data to train the model. In the future, more audio data with high-quality calls could be added to the training set. In this project, all of 128 mel frequency features are extracted as the representations of input. If the spectral characteristics of spider monkey can be investigated firstly, we can reduce the number of coefficients and focus on the specific frequency region. The spectrogram after modifying will decrease the input shape of CNN, leading to faster computation. Other state-of-art CNN architectures could be applied as well, since the time of perdition for VGG-based model is a bit slow.
+
+Hard negative mining was used to train the model second time, resulting in increasing precision but decreasing recall. The hard positive mining could be utilized as well to make model learn the undistinguishable positive feature. Since the denoising approaches will affect the informative region of spectrogram to some extent. A developed strategy can be suggested that only perform noise reduction method for the signal with lower SNR. This would introduce an extra work to estimate the signal SNR at first.
+
+As studied in \cite{hermans2017defense}, triplet loss
+shows better performance than hard negative mining on person re-identification problem. I have tried to construct triplets with anchor, positive and negative samples. Afterwards, train the model to learn embeddings and use the nearest neighbour to classify. However, due to the binary classification problem and lack of training data, results show worse performance than binary cross-entropy. The reason could be further investigated.
+
+As to data augmentation method, Google AI \cite{park2019specaugment} has proposed to perform data augmentation directly on spectrogram, named SpecAugment. They applied several masks to block the information on the spectrogram with randomly determined size. The vertical mask blocks the consecutive time information and the horizontal mask is for frequency channels. Experiments have demonstrated its better performance on automatic speech recognition. Thus, it can be an alternative augmentation on species detection.
+
+
+
