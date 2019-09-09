@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 31 14:41:32 2019
-
-@author: hzd88688126com
-"""
-
 from scipy.io import wavfile
 from scipy.special import expn
 from scipy.fftpack import ifft
