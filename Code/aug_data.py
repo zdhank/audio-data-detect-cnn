@@ -1,17 +1,3 @@
-'''
-Author: Scott H. Hawley
-
-Based on paper,  
-A SOFTWARE FRAMEWORK FOR MUSICAL DATA AUGMENTATION
-Brian McFee, Eric J. Humphrey, and Juan P. Bello
-https://bmcfee.github.io/papers/ismir2015_augmentation.pdf
-
-This script can either be called as a standalone to operate on sound files (e.g., .wav),
-or it can be imported & called from elsewhere, e.g. prep_data.py.  
-
-If you plan on using prep_data.py, then don't call this as a standalong. just let prep_data 
-do its thing, unless you really want to hear what the augmented data files sound like.
-'''
 from __future__ import print_function
 import numpy as np
 import librosa
