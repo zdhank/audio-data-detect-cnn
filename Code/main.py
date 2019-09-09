@@ -261,97 +261,7 @@ def recall(y_true, y_pred):
     return recall
 def f1(y_true, y_pred):
     y_true, y_pred = check_units(y_true, y_pred)
-    def precision(y_true, y_pred):
-        y_true, y_pred = check_units(y_true, y_pred)
-        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
-        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
-        precision = true_positives / (predicted_positives + K.epsilon())
-        return precision
-    def recall(y_true, y_pred):
-        y_true, y_pred = check_units(y_true, y_pred)
-        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
-        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
-        recall = true_positives / (possible_positives + K.epsilon())
-        return recall
     return 2*((precision(y_true, y_pred)*recall(y_true, y_pred))/(precision(y_true, y_pred)+recall(y_true, y_pred)+K.epsilon()))
-
-def binary_focal_loss(gamma=2.0, alpha=0.25):
-    """
-    Implementation of Focal Loss from the paper in multiclass classification
-    Formula:
-        loss = -alpha_t*((1-p_t)^gamma)*log(p_t)
-        
-        p_t = y_pred, if y_true = 1
-        p_t = 1-y_pred, otherwise
-        
-        alpha_t = alpha, if y_true=1
-        alpha_t = 1-alpha, otherwise
-        
-        cross_entropy = -log(p_t)
-    Parameters:
-        alpha -- the same as wighting factor in balanced cross entropy
-        gamma -- focusing parameter for modulating factor (1-p)
-    Default value:
-        gamma -- 2.0 as mentioned in the paper
-        alpha -- 0.25 as mentioned in the paper
-    """
-    def focal_loss(y_true, y_pred):
-        # Define epsilon so that the backpropagation will not result in NaN
-        # for 0 divisor case
-        y_true, y_pred = check_units(y_true, y_pred)
-        epsilon = K.epsilon()
-        # Add the epsilon to prediction value
-        #y_pred = y_pred + epsilon
-        # Clip the prediciton value
-        y_pred = K.clip(y_pred, epsilon, 1.0-epsilon)
-        # Calculate p_t
-        p_t = tf.where(K.equal(y_true, 1), y_pred, 1-y_pred)
-        # Calculate alpha_t
-        alpha_factor = K.ones_like(y_true)*alpha
-        alpha_t = tf.where(K.equal(y_true, 1), alpha_factor, 1-alpha_factor)
-        # Calculate cross entropy
-        cross_entropy = -K.log(p_t)
-        weight = alpha_t * K.pow((1-p_t), gamma)
-        # Calculate focal loss
-        loss = weight * cross_entropy
-        # Sum the losses in mini_batch
-        loss = K.sum(loss, axis=1)
-        return loss
-    return focal_loss 
-def cifar10(input_shape):
-    model = Sequential()
-    model.add(Conv2D(filters=32, input_shape=input_shape, padding='same', kernel_size=(3, 3)))
-    model.add(BatchNormalization())
-    model.add(Activation('elu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-
-    model.add(Conv2D(filters=32, padding='same', kernel_size=(3, 3)))
-    model.add(BatchNormalization())
-    model.add(Activation('elu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-
-    model.add(Conv2D(filters=64, kernel_size=(3, 3), padding='same', input_shape=input_shape))
-    model.add(BatchNormalization())
-    model.add(Activation('elu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-
-    model.add(Conv2D(filters=128, padding='same', kernel_size=(3, 3)))
-    model.add(BatchNormalization())
-    model.add(Activation('elu'))
-    model.add(MaxPooling2D(pool_size=(2, 2)))
-
-    model.add(Conv2D(filters=256, padding='same', kernel_size=(3, 3)))
-    model.add(BatchNormalization())
-    model.add(Activation('elu'))
-    model.add(Flatten())
-    model.add(Dropout(rate=0.5))
-
-    model.add(Dense(units=512))
-    model.add(Activation('elu'))
-    model.add(Dropout(rate=0.5))
-    model.add(Dense(1))
-    model.add(Activation('sigmoid'))
-    return model
 
 def build_vgg16(input_shape):
     model = Sequential()
@@ -438,7 +348,7 @@ def build_simple_model(input_shape):
 #    plot_model(model, to_file='simple_model_plot.pdf', show_shapes=True, show_layer_names=True)
     return model
 
-def model_train(x_train, y_train, x_test, y_test, name, num_epochs, batch_size, batch_norm=False):
+def model_train(x_train, y_train, x_test, y_test, name, num_epochs, batch_size, use_complex_model=False):
     """
     Trains and saves simple keras model. 
     """
@@ -455,8 +365,10 @@ def model_train(x_train, y_train, x_test, y_test, name, num_epochs, batch_size, 
     y_test = encoder.transform(y_test)
     # compiling network
     input_shape=(128, 282, 1) # dimensions: freq. bins, time steps, depth of feature maps
-    model = build_simple_model(input_shape)
-#    model = build_vgg16(input_shape)    
+    if use_complex_model=True:
+        model = build_vgg16(input_shape)   
+    else:
+        model = build_simple_model(input_shape)
     opt = Adam(lr=1e-5)
     model.compile(
         optimizer=opt,
@@ -822,14 +734,14 @@ def hnm(folder, model):
        fname = os.path.basename(wav)
        copyfile(wav, '../Data/hnm/'+fname) 
 #%% compile-dataset   
-name = 'vgg_augment_hnm'
-#x_train, y_train, x_test, y_test = compile_dataset('without_preprocessing', 48000)
+name = 'without_preprocessing'
+x_train, y_train, x_test, y_test = compile_dataset('without_preprocessing', 48000)
 #x_train, y_train, x_test, y_test = compile_dataset('without_preprocessing_hnm', 48000)
 #x_train, y_train, x_test, y_test = compile_dataset('denoised', 48000)
 #x_train, y_train, x_test, y_test = compile_dataset('denoised_hnm', 48000)
 #x_train, y_train, x_test, y_test = compile_dataset('augment', 48000)
 #x_train, y_train, x_test, y_test = compile_dataset('augment_denoised', 48000)
-x_train, y_train, x_test, y_test = compile_dataset('augment_hnm', 48000)
+#x_train, y_train, x_test, y_test = compile_dataset('augment_hnm', 48000)
 np.savez_compressed(name+'.npz', x_train, x_test, y_train, y_test)
 #%% training-model
 name = 'without_preprocessing'
@@ -837,8 +749,8 @@ dataset = np.load(name+'.npz')
 x_train, x_test, y_train, y_test=[dataset[key] for key in dataset]
 num_epochs = 50
 batch_size = 16
-batch_norm= True
-max_f1, max_recall, max_precision, max_acc, loss = model_train(x_train, y_train, x_test, y_test, name, num_epochs, batch_size, batch_norm)
+use_complex_model= False
+max_f1, max_recall, max_precision, max_acc, loss = model_train(x_train, y_train, x_test, y_test, name, num_epochs, batch_size, use_complex_model)
 #%% Hard-negitive-mining
 name='without_preprocessing'
 K.set_learning_phase(0)
@@ -854,7 +766,6 @@ for f in files:
 
 tic=time.time()
 for root, dirs, files in os.walk('../Data/Positives'):
-#    dirs.remove('tape')
     for di in (dirs): 
 #        search_folder_for_monkeys('../Data/Positives/'+di+'/', 80, model)
         hard_negative_miner(wav_folder='../Data/Positives/'+di+'/', threshold_confidence=90, model=model)
@@ -865,50 +776,6 @@ print('number of wrong position: ', len(glob.glob('../Data/mined-false-positives
 file=glob.glob('../Data/hnm/*.WAV')
 for f in file:
     os.remove(f)        
-#hnm('Negatives', model)
-#hnm('clipped-negatives', model)
+hnm('Negatives', model)
+hnm('clipped-negatives', model)
 hnm('Negatives-augment', model)
-#%%
-'''
-folder = 'clipped-whinnies'
-data_folder_path = '../Data/'
-files = glob.glob(data_folder_path+folder+'/*.WAV')
-
-y, sr = librosa.load(files[23], sr=48000, duration=3.00)
-mel_spec=librosa.feature.melspectrogram(y, sr=sr, n_fft=2048, hop_length=512, win_length=1024, window='hamming')
-keras_classifier.view_mel_spec(mel_spec)
-#%%
-import padasip as pa
-n=5
-x = np.random.normal(0, 1, len(y)) # noise
-x=pa.input_from_history(x,n)[:-1]
-f = pa.filters.FilterNLMS(n=n, mu=0.1, w="random")
-yhat, e, w = f.run(y[n:,], x)
-stft=np.abs(librosa.core.stft(e,win_length=1024,))**2
-mel_spec = librosa.feature.melspectrogram(S=stft, sr=44100)
-keras_classifier.view_mel_spec(mel_spec)
-#%%'''
-
-folder = 'clipped-negatives'
-data_folder_path = '../Data/'
-files = glob.glob(data_folder_path+folder+'/*.WAV')
-def view_mel_spec(mel_spec, wav, folder, save=False):
-#    mellog = librosa.power_to_db(mel_spec)
-    librosa.display.specshow(mel_spec,y_axis='mel',x_axis='time')
-    plt.colorbar(format='%+2.0f dB')
-    plt.title('Mel spectrogram')
-    if save:
-        wavname = os.path.basename(os.path.splitext(wav)[0])
-        if not os.path.exists('../Results/viewing-input-spects/'+folder+'/'):
-            os.makedirs('../Results/viewing-input-spects/'+folder+'/')
-        plt.savefig('../Results/viewing-input-spects/'+folder+'/'+wavname+'.pdf')
-        plt.gcf().clear()
-    else:
-        plt.show()
-for wav in files:
-    y, sr = librosa.load(wav, sr=48000, duration=3.00)
-#y=librosa.util.normalize(y)
-#    stft=np.abs(librosa.stft(y, n_fft=2048, hop_length=512, win_length=1024, window='hamming'))**2
-    mel_spec=librosa.feature.melspectrogram(y, sr=sr, n_fft=2048, hop_length=512, win_length=1024, window='hamming')
-    #a=librosa.util.normalize(mellog)
-    view_mel_spec(librosa.power_to_db(mel_spec), wav, folder, save=True)
