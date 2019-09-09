@@ -170,7 +170,7 @@ def compile_dataset(run_type, sr, train_perc=0.9):
     elif run_type == 'denoised':
         dataset = []
         #denoise positives
-#        denoise_mmse('clipped-whinnies', 'denoised-whinnies')
+        denoise_mmse('clipped-whinnies', 'denoised-whinnies')
         print("...basic data: positives")
         dataset = add_n_files_to_dataset(n=-1, folder='clipped-whinnies', dataset=dataset, example_type=1, sr=sr, noise=False, noise_samples=False)
         denoise_dataset(dataset)
@@ -181,7 +181,7 @@ def compile_dataset(run_type, sr, train_perc=0.9):
     elif run_type == 'denoised_hnm':
         dataset = []
         #denoise positives
-#        denoise_mmse('clipped-whinnies', 'denoised-whinnies')
+        denoise_mmse('clipped-whinnies', 'denoised-whinnies')
         print("...basic data: positives")
         dataset = add_n_files_to_dataset(n=-1, folder='denoised-whinnies', dataset=dataset, example_type=1, sr=sr, noise=False, noise_samples=False)
         n_pos=len(dataset)
@@ -191,12 +191,12 @@ def compile_dataset(run_type, sr, train_perc=0.9):
     elif run_type == 'augment': 
         dataset = []
         print("...basic data: positives")
-#        aug_data.augment('clipped-whinnies', n_augment=4)
+        aug_data.augment('clipped-whinnies', n_augment=4)
         dataset = add_n_files_to_dataset(n=-1, folder='clipped-whinnies', dataset=dataset, example_type=1, sr=sr, noise=False, noise_samples=False)
         dataset = add_n_files_to_dataset(n=-1, folder='clipped-whinnies-augment', dataset=dataset, example_type=1, sr=sr, noise=False, noise_samples=False)
         print("...basic data: negatives")
         n_pos=len(dataset)
-#        aug_data.augment('Negatives', n_augment=6)
+        aug_data.augment('Negatives', n_augment=6)
         dataset = add_n_files_to_dataset(n=-1, folder='Negatives', dataset=dataset, example_type=0, sr=sr, noise=False, noise_samples=False)   
         dataset = add_n_files_to_dataset(n=2*n_pos-len(dataset), folder='Negatives-augment', dataset=dataset, example_type=0, sr=sr, noise=False, noise_samples=False)   
     elif run_type == 'augment_denoise': 
